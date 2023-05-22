@@ -8,12 +8,13 @@ Repo Viewer is an advanced GitHub client application that exemplifies industry-l
 - Implements the industry-standard OAuth2 protocol for secure user authentication.
 - Securely persists tokens using `flutter_secure_storage` to ensure the user doesn't have to sign in every time the app is launched.
 
-### Display of Paginated Data 🗂️
-- Fetches paginated data from the server using `dio`, caches it locally with `sembast`, and displays it in the user interface.
+### Efficient Data Fetching & Caching 🔄
+- Leverages dio for network requests and implements HTTP caching with ETags to reduce bandwidth usage and improve response times.
+- Fetches paginated data from the server, caches it locally with sembast, and displays it in the user interface.
 - Displays the starred GitHub repositories of the signed-in user.
 
 ### Search Functionality 🔍
-- Provides a sophisticated search functionality that enables the user to search for specific GitHub repositories using `material_floating_search_bar`.
+- Provides a sophisticated search functionality that enables the user to search for specific GitHub repositories.
 
 ### WebView Integration 🌐
 - Integrates `webview_flutter` to display classic HTML content.
@@ -25,11 +26,22 @@ Repo Viewer is an advanced GitHub client application that exemplifies industry-l
 - Utilizes `freezed`, `json_serializable` and `injectable` for code generation and `flutter_lints` and `lint` to enforce best practices and style guides.
 - Employs effective code duplication removal techniques, ensuring a clean and maintainable codebase.
 
+### Screen Shots📱
+
+![header 1](screenshots/oauth2_1.png)
+![header 1](screenshots/oauth2_2.png)
+![header 1](screenshots/oauth2_3.png)
+![header 1](screenshots/oauth2_4.png)
+![header 1](screenshots/oauth2_5.png)
+![header 1](screenshots/oauth2_6.png)
+![header 1](screenshots/oauth2_7.png)
+![header 1](screenshots/oauth2_8.png)
+
 ## Getting Started 🏁
 
 To get started with the Repo Viewer project, follow these steps:
 
-1. **Clone the Repository**: You can clone the repository by running `git clone https://github.com/<your-username>/repo-viewer.git` in your terminal.
+1. **Clone the Repository**: You can clone the repository by running `git clone ` in your terminal.
 2. **Get Dependencies**: Navigate to the project root directory and run `flutter pub get` to fetch the necessary dependencies.
 3. **Build the Project**: Run `flutter run` to build and run the project in a connected device or emulator.
 
@@ -40,7 +52,6 @@ To get started with the Repo Viewer project, follow these steps:
 - [bloc](https://pub.dev/packages/bloc)
 - [dio](https://pub.dev/packages/dio)
 - [flutter_secure_storage](https://pub.dev/packages/flutter_secure_storage)
-- [material_floating_search_bar](https://pub.dev/packages/material_floating_search_bar)
 - [webview_flutter](https://pub.dev/packages/webview_flutter)
 - [dartz](https://pub.dev/packages/dartz)
 - [sembast](https://pub.dev/packages/sembast)
