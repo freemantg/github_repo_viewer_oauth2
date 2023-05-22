@@ -1,0 +1,31 @@
+GET {{baseUrl}}/user
+Authorization: Bearer  {{accessToken}}
+
+###
+GET {{baseUrl}}/user/starred
+Authorization: Bearer  {{accessToken}}
+Accept: {{acceptHeader}}
+# If-None-Match: W/"798aada065937d2cf440cfbdf0e19f1f7a5a00eac5ab4dc785376a0c97081b9d"
+
+###
+GET {{baseUrl}}/search/repositories
+    ?q=flutter
+    &page=1
+Authorization: Bearer  {{accessToken}}
+Accept: {{acceptHeader}}
+
+###
+GET {{baseUrl}}/repos/flutter/flutter/readme
+Authorization: Bearer {{accessToken}}
+Accept: {{acceptHeader}}
+
+
+###
+///Starring/Unstarring a repo
+PUT {{baseUrl}}/user/starred/freemantg/dynamic-insets
+Authorization: Bearer {{accessToken}}
+Content-Length: 0
+
+###
+DELETE {{baseUrl}}/user/starred/freemantg/dynamic-insets
+Authorization: Bearer {{accessToken}}

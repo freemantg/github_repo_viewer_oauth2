@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\F-Tan\Documents\GitHub\github_repo_viewer\github_repo_viewer_oauth2\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\F-Tan\Documents\GitHub\github_repo_viewer\github_repo_viewer_oauth2\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\F-Tan\Documents\GitHub\github_repo_viewer\github_repo_viewer_oauth2\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\F-Tan\Documents\GitHub\github_repo_viewer\github_repo_viewer_oauth2\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{634872A5-3AF7-3CCE-A1E6-865AEDAF523A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C8D9E22D-B245-3937-836C-E8D5C2A829E9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

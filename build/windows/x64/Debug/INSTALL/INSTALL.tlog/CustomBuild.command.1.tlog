@@ -1,0 +1,10 @@
+^C:\USERS\F-TAN\DOCUMENTS\GITHUB\GITHUB_REPO_VIEWER\GITHUB_REPO_VIEWER_OAUTH2\BUILD\WINDOWS\CMAKEFILES\8D7B250C2A52B0714E6B212131750598\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
