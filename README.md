@@ -38,11 +38,11 @@ Repo Viewer is an advanced GitHub client application that exemplifies industry-l
 ![header 1](screenshots/oauth2_8.png)
 
 
-### Getting Started 🚀
+## Getting Started 🚀
 
 To get up and running with the project, follow these steps:
 
-## Step 1: Clone the Repository
+### Step 1: Clone the Repository
 
 First, you'll need to clone the repository to your local machine. You can do this with the following command:
 
@@ -50,7 +50,7 @@ First, you'll need to clone the repository to your local machine. You can do thi
 git clone https://github.com/freemantg/oauth2_flutter.git
 ```
 
-## Step 2: Install the Dependencies
+### Step 2: Install the Dependencies
 
 Navigate into the project's root directory and run the following command:
 
@@ -60,7 +60,7 @@ flutter pub get
 
 This will install all the required dependencies.
 
-## Step 3: Setting up GitHub OAuth
+### Step 3: Setting up GitHub OAuth
 
 The Repo Viewer app uses GitHub OAuth for authentication. To make it work, you need to setup OAuth apps on your GitHub account. Follow these instructions:
 
@@ -72,7 +72,7 @@ The Repo Viewer app uses GitHub OAuth for authentication. To make it work, you n
 
 Once you've set up the OAuth app, you will get a `Client ID` and a `Client Secret`. 
 
-## Step 4: Add your GitHub OAuth IDs
+### Step 4: Add your GitHub OAuth IDs
 
 Navigate to the `GithubAuthenticator` class in the project. Replace the empty strings of `clientId` and `clientSecret` constants with your own `Client ID` and `Client Secret` respectively. Make sure not to share these values publicly.
 
@@ -81,7 +81,7 @@ static const clientId = '<YOUR_CLIENT_ID>';
 static const clientSecret = '<YOUR_CLIENT_SECRET>';
 ```
 
-## Step 5: Run the app
+### Step 5: Run the app
 
 Ensure that an emulator is running, or your physical device is connected, then from the root of the project, run:
 
@@ -90,6 +90,7 @@ flutter run
 ```
 
 That's it! Now you should be able to run the app and explore the features!
+
 
 
 ## Dependencies 📦
