@@ -8,6 +8,7 @@ Repo Viewer is an advanced GitHub client application that exemplifies industry-l
 - [🏗️ Architecture](#-architecture)
 - [🔧 Technical Stack](#-technical-stack)
 - [🚀 Getting Started](#-getting-started)
+- [🧪  Unit Testing](#-unit-testing)
 - [🤝 Contributing](#-contributing)
 - [📝 License](#-license)
 - [📞 Contact](#-contact)
@@ -66,6 +67,16 @@ Repo Viewer is crafted using the following technology stack:
 2. Run `flutter packages get` in the root directory to fetch the project dependencies.
 3. Setup OAuth apps on your GitHub account and replace the `clientId` and `clientSecret` constants in the `GithubAuthenticator` class with your `Client ID` and `Client Secret`.
 4. Finally, execute `flutter run` to run the project on your device/emulator.
+
+## 🧪 Unit Testing
+
+This project places a high priority on software quality and maintainability. As a result, extensive unit testing to ensure the software's robustness and reliability, with tests covering all major components of the application is used.
+
+The project employs the `flutter_test` package for unit and widget tests, `mockito` for creating mocks in tests, and `bloc_test` for thoroughly testing the Blocs to ensure that the app state is managed correctly.
+
+To run the tests, simply execute the following command in the project root:
+
+`Flutter Test`
 
 ## Contributing 🤝
 
